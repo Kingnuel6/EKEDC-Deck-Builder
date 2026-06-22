@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const SYSTEM_PROMPT = `You are a presentation architect for Eko Electricity Distribution PLC (EKEDC), a Nigerian electricity distribution company serving Lagos and Ogun States.
 
 Your job is to return a valid JSON array of slide objects. No markdown, no explanation, no code fences — ONLY the JSON array.
